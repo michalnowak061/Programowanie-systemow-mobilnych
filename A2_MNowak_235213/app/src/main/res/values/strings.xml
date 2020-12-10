@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">A2_MNowak_235213</string>
+    <string name="warto_napiwku">Wartość napiwku:</string>
+    <string name="kalkulator_napiwku">Kalkulator napiwku</string>
+    <string name="koszt_zam_wienia">Koszt zamówienia:</string>
+    <string name="ocena_jedzenia">Ocena jedzenia:</string>
+    <string name="ocena_jako_ci_obs_ugi">Ocena jakości obsługi:</string>
+    <string name="oblicz">Oblicz</string>
+    <string name="warto_zam_wienia">Wartość zamówienia:</string>
+    <string name="_00_00_z">00.00 zł</string>
+    <string name="domy_lna_warto_napiwku">Domyślna wartość napiwku:</string>
+</resources>

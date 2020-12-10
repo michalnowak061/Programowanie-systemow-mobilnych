@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">A3_a_MNowak_235213</string>
+    <string name="hello_world">Hello World</string>
+    <string name="kolor_tekstu_czarny">Kolor tekstu: czarny</string>
+    <string name="kolor_t_a_bia_y">Kolor tła: biały</string>
+    <string name="rozmiar_czcionki_14">Rozmiar czcionki: 14</string>
+</resources>
