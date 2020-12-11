@@ -39,6 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 openGoogleMapsActivity();
             }
         });
+
+        additionalActivityButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openAdditionalActivity();
+            }
+        });
     }
 
     public void openSmsMessageActivity() {
@@ -48,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openGoogleMapsActivity() {
         Intent intent = new Intent(this, GoogleMapsActivity.class);
+        startActivity(intent);
+    }
+
+    public void openAdditionalActivity() {
+        Intent intent = new Intent(this, AdditionalActivity.class);
         startActivity(intent);
     }
 }

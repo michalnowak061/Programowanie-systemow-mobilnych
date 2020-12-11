@@ -25,12 +25,10 @@ public class GoogleMapsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String latitude = lengthEditText.getText().toString();
                 String longitude = widthEditText.getText().toString();
-                //String geoCode = "geo:41.5020952,-81.6789717&z=16";
-                //Log.i("info: ", geoCode);
-                String geoCode = "geo:" + latitude + "," + longitude + "&z=16";
-                Log.i("info: ", geoCode);
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoCode));
-                startActivity(intent);
+
+                Uri gmmIntentUri = Uri.parse("geo:"+latitude+","+longitude);
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                startActivity(mapIntent);
             }
         });
     }
