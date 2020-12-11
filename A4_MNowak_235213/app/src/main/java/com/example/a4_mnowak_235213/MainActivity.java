@@ -1,11 +1,12 @@
 package com.example.a4_mnowak_235213;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.net.Uri;
-import android.content.Intent;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,10 +33,21 @@ public class MainActivity extends AppCompatActivity {
                 openSmsMessageActivity();
             }
         });
+
+        googleMapsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openGoogleMapsActivity();
+            }
+        });
     }
 
     public void openSmsMessageActivity() {
         Intent intent = new Intent(this, SmsMessageActivity.class);
+        startActivity(intent);
+    }
+
+    public void openGoogleMapsActivity() {
+        Intent intent = new Intent(this, GoogleMapsActivity.class);
         startActivity(intent);
     }
 }
