@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openGoogleMapsActivity() {
-        Intent intent = new Intent(this, GoogleMapsActivity.class);
+        Intent intent = new Intent(this, GoogleActivity.class);
         startActivity(intent);
     }
 

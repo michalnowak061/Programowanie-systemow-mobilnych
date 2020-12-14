@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GoogleMapsActivity">
+    tools:context=".GoogleActivity">
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
@@ -23,34 +23,19 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Długość geograficzna:" />
+            android:text="Szukana fraza:" />
 
         <EditText
-            android:id="@+id/lengthEditText"
+            android:id="@+id/searchEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="numberSigned"
-            android:text="0.0" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Szerokość geograficzna:" />
-
-        <EditText
-            android:id="@+id/widthEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="numberSigned"
-            android:text="0.0" />
+            android:inputType="text" />
 
         <Button
             android:id="@+id/readyButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gotowe" />
+            android:text="Szukaj" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

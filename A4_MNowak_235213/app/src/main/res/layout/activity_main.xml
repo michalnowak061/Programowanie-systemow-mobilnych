@@ -35,7 +35,7 @@
             android:id="@+id/googleMapsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Google Maps" />
+            android:text="Wyszukiwarka Google" />
 
         <Button
             android:id="@+id/additionalActivityButton"

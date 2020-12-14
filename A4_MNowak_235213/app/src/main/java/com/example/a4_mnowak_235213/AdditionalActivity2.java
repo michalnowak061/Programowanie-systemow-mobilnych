@@ -22,7 +22,9 @@ public class AdditionalActivity2 extends AppCompatActivity {
         Intent myLocalIntent = getIntent();
         Bundle myBundle = myLocalIntent.getExtras();
         String var1 = myBundle.getString("data1");
-        String result = var1;
+        String result = "Numer indeksu: " + var1.toString() +
+                        "\nImię i nazwisko: Michał Nowak" +
+                        "\nProponowana ocena z laboratorium: 5.0";
 
         inputTextView.setText(var1);
         resultTextView.setText(result);
