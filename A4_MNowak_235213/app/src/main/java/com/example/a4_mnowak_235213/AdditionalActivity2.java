@@ -34,6 +34,7 @@ public class AdditionalActivity2 extends AppCompatActivity {
         returnButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 finishActivity(Activity.RESULT_OK);
+                finish();
             }
         });
     }
